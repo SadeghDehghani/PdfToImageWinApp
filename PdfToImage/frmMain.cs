@@ -45,8 +45,6 @@ namespace PdfToImage
 
         }
 
-
-
         private void ConvertPdfToImages(string pdfPath, string outputFolder)
         {
             try
@@ -97,7 +95,6 @@ namespace PdfToImage
                 MessageBox.Show("❌ خطا: " + ex.Message, "خطا", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
 
         private void ConvertPdfToImagesxxxx(string pdfPath, string outputFolder)
         {
